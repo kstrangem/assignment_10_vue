@@ -1,0 +1,15 @@
+table, th, td {
+  border: 1px solid black;
+  }
+  th {
+  	background-color:grey;
+  	color:white;
+  	padding:10px;
+  }
+  td {
+  	padding:10px;
+  }
+  .table-header {
+  	font-family:sans-serif;
+  	font-weight:bolder;
+  }
