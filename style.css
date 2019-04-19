@@ -13,3 +13,6 @@ table, th, td {
   	font-family:sans-serif;
   	font-weight:bolder;
   }
+  .favorites {
+    color: cornflowerblue;
+  }
