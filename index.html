@@ -10,8 +10,7 @@
 	    <h1>Rock Collection</h1>
 	    <div id="myRocks">
 	    <table>
-	    	<thead>
-	    	<div class="table-header">
+	    	<thead  class="table-header">
 		    	<tr>
 			        <th> Name </th>
 			        <th> Color </th>
@@ -19,12 +18,11 @@
 			        <th> Luster </th>
 			        <th> Description </th>
 		        </tr>
-	         </div>
 	       </thead>
 	     <tbody>
 	     	<tr
-	     	v-for="(rock,index) in rocks"
-	     	v-bind:class="{active:isActive, rockCollection.rank>6}">
+	     	v-for="rock in rocks"
+	     	v-bind:class="{active:isActive, favorites: rockCollection.rank>6}">
 	     	<td>{{rock.name}}</td>
 	     	<td>{{rock.color}}</td>
 	     	<td>{{rock.transparency}}</td>
